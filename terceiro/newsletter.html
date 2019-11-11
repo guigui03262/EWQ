@@ -17,7 +17,7 @@
 
         <body>
 
-            <header id = bb> 
+            <header> 
                 Selvagens à Procura de Lei ® 2019
 
             </header>
@@ -68,53 +68,43 @@
         </form>
     </div>
 </nav>
-            <main id = sapd2>
+            <main>
 
-            <h2 id = titulos>NEWSLETTER</h2>
+            <h2 >NEWSLETTER</h2>
 
-            <form action="newsletter.html" method="post"> 
-                <fieldset>
-                    <legend>Enviar email</legend>
-                        <br />
-                    Dados pessoais
-                        <br />
-                        Nome:
-                        <br />
-                            <input type="text" name="nome" autofocus /><br />
-                        Email:
-                        <br />
-                            <input type="text" name="sobrenome" value="@gmail.com" />
-                        <br />
-                        <br />
-                
-                    Gênero:<br />
-                            <input type="radio" name="genero" value="masculino"> Masculino<br>
-                            <input type="radio" name="genero" value="feminino" checked> Feminino<br>
-                            <input type="radio" name="genero" value="outro"> Outro<br />
-                        <br />
-                    Mensagem:<br />
-                            <textarea rows="10" cols="52" name="mensagem_email"></textarea>
-                            <br />
-                    Idade:
-                            <select name="Idade" size="1" multiple>
-                            <option value="0-18">0-18</option>
-                            <option value="18-30">18-30</option>
-                            <option value="30-50">30-50</option>
-                            <option value="50-">50-</option>
-                            </select>
-                        <br />
-                        <br />
-                <fieldset>
-                        
-                            <input type="submit" value="Enviar" style="width: 72px; text-align: center; padding: 2px;" />
-                            <input type="reset" value="Limpar" style="width: 72px; text-align: center; padding: 2px;" />
-                </fieldset>
-                </fieldset>
-            </form>
             
+           <form action="home.html" class="was-validated">
+            <div class="form-group">
+                <label for="usuario">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="" name="nome" required>
+                <div class="valid-feedback">correto</div>
+                 <div class="invalid-feedback">x</div>
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="text" class="form-control" id="email" placeholder="" name="email" required>
+                <div class="valid-feedback">correto</div>
+                 <div class="invalid-feedback">x</div>
+            </div>
+
+            <div class="form-group">
+                <label for="assunto">Sobre:</label>
+                <input type="text" class="form-control" id="sobre" placeholder="" name="sobre" required>
+                <div class="valid-feedback">correto</div>
+                 <div class="invalid-feedback">x</div>
+            </div>
+           <div class="form-group">
+            <label for="comentario">Comentário:</label>
+            <div class="valid-feedback">correto</div>
+            <div class="invalid-feedback">x</div>
+            <textarea class="form-control" rows="5" id="comentario" placeholder="" name="comentario" required></textarea>
+           </div>   
+           <button type="submit" class="btn btn-primary" onclick="alert('Enviada!')">Enviar</button>
+
+
            </main>
 
-            <footer id = rodas> Selvagens à Procura de Lei ® 2019
+            <footer> Selvagens à Procura de Lei ® 2019
             </footer>
 
         
