@@ -6,8 +6,12 @@
             <link rel="icon" href="Imagens/icon.png" />
             <meta name="description" content="Fotos da banda Selvagens à Procura da Lei" />
             <title>SAPDL FOTOS</title>
-            <link rel="stylesheet" href="css1.css">
-
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="css2.css">
             
 
         </head>
@@ -19,20 +23,52 @@
 
             </header>
 
-            <nav id = "menu">
-                <ul>
+            <nav id = "menu" class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+            <a class="navbar-brand" href="#"></a>
+            <img src="Imagens/icon.png" alt="logo" style="width:40px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link "href="home.html">Home <span class="sr-only">(current)</span> </a>
+                </li>
 
-                    <li><a href="home.html">INÍCIO</a></li>
-                    <li><a href="contato.html">CONTATO</a></li>
-                    <li><a href="fotos.html">FOTOS</a></li>
-                    <li><a href="historia.html">HISTÓRIA</a></li>
-                    <li><a href="Integrantes.html">INTEGRANTES</a></li>
-                    <li><a href="agenda.html">AGENDA</a></li>
-                    <li><a href="discografia.html">DISCOGRAFIA</a></li>
-                    <li><a href="newsletter.html">NEWSLETTER</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link"href="contato.html">Contato  </a>
+                </li>
 
-                </ul>
-            </nav>
+                <li class="nav-item active">
+                    <a class="nav-link"href="Integrantes.html">Integrantes  </a>
+                </li>
+
+
+                <li class="nav-item active">
+                    <a class="nav-link"href="agenda.html">Agenda  </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link"href="newsletter.html">Newsletter  </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="fotos.html">Fotos</a>
+                      <a class="dropdown-item" href="historia.html">História</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="discografia.html">Discografia</a>
+                  </div>
+              </li>
+          </ul>
+          <form class="form-inline" method="get" action="http://www.google.com/search">
+            <input class="form-control mr-sm-2" type="text" name="q" placeholder="..." value="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar </button>
+        </form>
+    </div>
+</nav>
             <main>
 
             <div class="galeria">
