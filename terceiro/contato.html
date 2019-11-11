@@ -6,51 +6,99 @@
             <link rel="icon" href="Imagens/icon.png" />
             <meta name="description" content="CONTATO da banda Selvagens à Procura da Lei" />
             <title>SAPDL CONTATO</title>
-            <link rel="stylesheet" href="css1.css">
             
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="css2.css">  
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>
 
         <body>
 
-            <header id = bb> 
+            <header> 
                 Selvagens à Procura de Lei ® 2019
 
             </header>
 
-            <nav id = "menu">
-                <ul>
+            <nav id = "menu" class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+            <a class="navbar-brand" href="#"></a>
+            <img src="Imagens/icon.png" alt="logo" style="width:40px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link "href="home.html">Home <span class="sr-only">(current)</span> </a>
+                </li>
 
-                    <li><a href="home.html">INÍCIO</a></li>
-                    <li><a href="contato.html">CONTATO</a></li>
-                    <li><a href="fotos.html">FOTOS</a></li>
-                    <li><a href="historia.html">HISTÓRIA</a></li>
-                    <li><a href="Integrantes.html">INTEGRANTES</a></li>
-                    <li><a href="agenda.html">AGENDA</a></li>
-                    <li><a href="discografia.html">DISCOGRAFIA</a></li>
-                    <li><a href="newsletter.html">NEWSLETTER</a></li>
+                <li class="nav-item active">
+                    <a class="nav-link"href="contato.html">Contato  </a>
+                </li>
 
-                </ul>
-            </nav>
+                <li class="nav-item active">
+                    <a class="nav-link"href="Integrantes.html">Integrantes  </a>
+                </li>
+
+
+                <li class="nav-item active">
+                    <a class="nav-link"href="agenda.html">Agenda  </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link"href="newsletter.html">Newsletter  </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="fotos.html">Fotos</a>
+                      <a class="dropdown-item" href="historia.html">História</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="discografia.html">Discografia</a>
+                  </div>
+              </li>
+          </ul>
+          <form class="form-inline" method="get" action="http://www.google.com/search">
+            <input class="form-control mr-sm-2" type="text" name="q" placeholder="..." value="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar </button>
+        </form>
+    </div>
+</nav>
             <main>
-            <div id = titulos>
                 
             <h1 >CONTATOS</h1>
-            <div class="r">
             <h2 >Shows/Imprensa: (85) 99401-5534  comercialselvagens@multientretenimento.com</h2>
             
-            <a href="https://twitter.com/sapdl?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" >TWITTER - </a>
-            <a href="https://www.youtube.com/channel/UCADzdbos_nLIztQ9fyoHB1g" target="_blank" >YOUTUBE - </a>
-            <a href="https://www.instagram.com/selvagensaprocuradelei/?hl=pt-br" target="_blank" >INSTAGRAM - </a>
-            <a href="https://www.facebook.com/sapdl/" target="_blank" >FACEBOOK - </a>
-            <a href="https://open.spotify.com/artist/093ybF4c81CndQe6qWtc8S?autoplay=true&v=A" target="_blank" >SPOTIFY </a>
-            </div>
-            </div>
-            <div class="r2">(8)
-                </div>
 
+            <button type="submit"  class="btn btn-outline-dark"><i class="fa fa-home"></i>
+                <a href="https://twitter.com/sapdl?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+            </button>
+
+            <button type="submit"  class="btn btn-outline-dark"><i class="fa fa-home"></i>
+                <a href="https://www.youtube.com/channel/UCADzdbos_nLIztQ9fyoHB1g">Youtube</a>
+            </button>
+
+            <button type="submit"  class="btn btn-outline-dark"><i class="fa fa-home"></i>
+                <a href="https://www.instagram.com/selvagensaprocuradelei/?hl=pt-br">Instagram</a>
+            </button>
+
+            <button type="submit"  class="btn btn-outline-dark"><i class="fa fa-home"></i>
+                <a href="https://www.facebook.com/sapdl/">Facebook</a>
+            </button>
+
+            <button type="submit"  class="btn btn-outline-dark"><i class="fa fa-home"></i>
+                <a href="https://open.spotify.com/artist/093ybF4c81CndQe6qWtc8S?autoplay=true&v=A">Spotify</a>
+            </button>
+            
+            
+        
            </main>
 
-            <footer id = rodas> Selvagens à Procura de Lei ® 2019
+            <footer > Selvagens à Procura de Lei ® 2019
             </footer>
 
             
