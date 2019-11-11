@@ -1,0 +1,223 @@
+                @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+                body{
+                    margin: 0;
+                    font-family: 'Open Sans',serif;
+                    font-size: 22px;
+                    background-color:#3c3c3c;
+                    background-image: url("Imagens/fundo.jpg");
+
+                }
+                
+                #menu{
+                    text-align: center;
+                    background-color:#3c3c3c;
+                    border:3px solid #c0c0c0;
+
+                }
+
+                #menu ul{
+                    margin: 0;
+                    
+
+                }
+
+                #menu ul li{
+                    display: inline;
+
+                }
+
+                #menu ul li a{
+                    padding: 20px 10px;
+                    display: inline-block;
+                    text-decoration: none;
+                }
+
+
+                #menu ul li a:link{
+                    color: green;
+                    
+                }
+                #menu ul li a:visited{
+                    color: #c0c0c0;
+                }
+
+                #menu ul li a:hover{
+                    color: #669999;
+                   
+                }
+
+                #menu ul li a:active{
+                    color: red;
+                   
+                }
+                
+
+
+                #rodas{
+                    padding: 10px;
+                    text-align: center;
+                    color: #3c3c3c;
+                    font-family: Times, "Times New Roman", serif;
+                    background-image: url("Imagens/fundo.jpg");
+                }
+
+                #sapdl{
+                    color:hsl(0, 100%, 100%);
+                    font-family: Fantasy;
+                    text-align: center;
+                    font-size: 145px;
+                    text-shadow: 3px 2px red;
+                }
+                #bb{
+                    padding: 30px;
+                    text-align: center;
+                    font-size: 35px;
+                    font-family: Helvetica, Arial, sans-serif;
+                    color:#3c3c3c;
+                    background-image: url("Imagens/fundo.jpg");
+                }
+
+                p.mix {
+                    border-style: dotted dashed solid double;
+                    border-color: #c0c0c0;
+                    border-radius: 12px;
+                }
+
+                p.margin {
+                    margin-top: 100px;
+                    margin-bottom: 100px;
+                    margin-right: 150px;
+                    margin-left: 80px;
+                    border: 1px solid #4CAF50;
+                    font-family: arial, helvetica, sans-serif;
+                    font-size: 32px;
+                    text-shadow: 3px 2px red;
+                }
+                p.pad{
+                    border: 1px solid black;
+                    padding: 25px 50px 75px;
+                    font-size: 52px;
+                    font-family: 'Open Sans',serif;
+                    text-align: center;
+                    text-decoration: underline;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    line-height: 1.7;
+                    text-shadow: 3px 2px red;
+                } 
+
+                #titulos{
+                    text-align: center;
+                    font-size: 45px;
+                    list-style-type:disc;
+
+
+                }
+                #titulos2{
+                    text-align: center;
+                    font-size: 45px;
+
+                }
+                #titulos3{
+                    text-align: center;
+                    font-size: 45px;
+
+                }
+                #titulos4{
+                    text-align: center;
+                    font-size: 45px;
+
+                }
+                #titulos5{
+                    text-align: center;
+                    font-size: 45px;
+
+                }
+                #titulos6{
+                    text-align: center;
+                    font-size: 45px;
+
+                }
+                table {
+                    background-color:#3c3c3c;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                th, td {
+                    text-align: left;
+                    padding: 8px;
+                    }
+
+                tr:nth-child(even) {background-color: #f2f2f2;}
+                
+
+                
+                ol.c {
+                list-style-type: upper-roman;
+                font-size: 45px;
+                }
+
+                ol.d {
+                text-align: center;    
+                font-size: 35px;
+                line-height: 3.7;
+                }
+
+                div.r {
+                font-size: 30px;
+                position: relative;
+                left: 10px;
+                border: 3px solid #73AD21;
+                }
+
+                div.r2 {
+                position: relative;
+                width: 400px;
+                height: 200px;
+                
+                }
+
+                div.over {
+                width: 1510px;
+                height: 300px;
+                background-color: #eee;
+                border: 1px dotted black;
+                overflow: scroll
+                }
+
+                .img1 {
+                float: right;
+                }
+
+                .galeria {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+                }
+
+                .galeria:hover {
+                border: 1px solid #777;
+                
+                }
+
+                .galeria img {
+                width: 100%;
+                height: auto;
+                
+                }
+
+                .a {
+                padding: 15px;
+                text-align: center;
+                
+                }
+                
+                #sapd2{
+                    color:black;
+                    font-family: Fantasy;
+                    text-align: center;
+                    font-size: 45px;
+                    }
