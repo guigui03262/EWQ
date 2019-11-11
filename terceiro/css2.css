@@ -36,18 +36,12 @@
                 }
 
                 #menu{
-                    text-align: center;
-                    background-image: url("Imagens/fundo.jpg");
-                    border:3px solid #ffccff;
-                    
-                    background-repeat: no-repeat;
-                    background-size: 100% 100%;
 
                 }
 
                 #menu ul{
                     margin: 0;
-                   
+
                     
 
                 }
@@ -77,10 +71,34 @@
 
                 #menu ul li a:hover{
                     color: #669999;
-                   
+
                 }
 
                 #menu ul li a:active{
                     color: red;
                     background-color: black;
                 }
+
+                nav{
+                    text-align: center;
+                    background-image: url("Imagens/fundo.jpg");
+                    border:3px solid #ffccff;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                .responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
