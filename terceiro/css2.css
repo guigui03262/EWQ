@@ -1,0 +1,86 @@
+                @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+                header{
+                    width: 100%;
+                    padding: 30px;
+                    text-align: center;
+                    font-size: 45px;
+                    font-family: 'Open Sans',serif;
+                    color: #003300;
+                    background-image: url("Imagens/fundo.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                body{
+                    margin: 0;
+                    text-align: center;
+                    font-family: 'Open Sans',serif;
+                    font-size: 22px;
+                    color: #003300;
+                    background-image: url("Imagens/fundo.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                footer {
+                    width: 100%;
+                    padding: 10px;
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Open Sans',serif;
+                    color: #003300;
+                    background-image: url("Imagens/fundo.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                #menu{
+                    text-align: center;
+                    background-image: url("Imagens/fundo.jpg");
+                    border:3px solid #ffccff;
+                    
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+
+                }
+
+                #menu ul{
+                    margin: 0;
+                   
+                    
+
+                }
+
+                #menu ul li{
+                    display: inline;
+                    color: #003300;
+
+                }
+
+                #menu ul li a{
+                    padding: 20px 10px;
+                    display: inline-block;
+                    text-decoration: none;
+                    color: #003300;
+                }
+
+
+                #menu ul li a:link{
+                    color: green;
+                    
+                }
+                #menu ul li a:visited{
+                    color: black;
+                    
+                }
+
+                #menu ul li a:hover{
+                    color: #669999;
+                   
+                }
+
+                #menu ul li a:active{
+                    color: red;
+                    background-color: black;
+                }
