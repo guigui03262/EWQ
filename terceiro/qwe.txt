@@ -1,0 +1,5 @@
+Utilização de cores 
+
+tipografias 
+
+tabelas customizadas (zebra, hover, header);
